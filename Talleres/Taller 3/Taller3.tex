@@ -1,0 +1,77 @@
+\documentclass[10pt]{article}
+%\documentclass[prd,amssymb,preprint]{revtex4}
+\setlength{\topmargin}{-0.4in}
+\setlength{\oddsidemargin}{0.15in} 
+\setlength{\textwidth}{5.7in}
+\setlength{\textheight}{9.1in}
+\usepackage{epsfig}
+\usepackage{hyperref}
+\usepackage{multicol} 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{nicefrac}
+
+\pagestyle{empty}		% Remove page number
+
+\begin{document}
+
+\noindent
+{\Large \bf Taller de Física General}
+\vskip 0.3cm
+\noindent
+{\large \bf Taller \# 3}
+\vskip 0.5cm
+\noindent
+%{\bf } \\
+{\it Temas: Gráficas, cálculos de errores, ajuste lineal.}\\
+{\it Profesores:  G. Pieffet}\\
+
+
+\begin{enumerate}
+
+\item Escribir las medidas siguientes de forma apropiada:
+\begin{enumerate}
+	\item $A = 123.89456 \pm 0.054\;\rm{cm}^2$
+	\item $t = 247.871 \pm 0.21$ s
+	\item $m = 7548.21 \pm 26.2$ kg
+\end{enumerate}
+	
+\item Si se mide el diámetro de un circulo y se obtiene $d = 5.0 \pm 0.1$ cm, cuál es el perímetro del circulo así que el error asociado?  
+
+\item En un experimento para medir el calor latente del hielo (también llamado entalpía de fusión y que corresponde a la energía para pasar 1 kg de hielo de fase solida a fase liquida), un estudiante pone un bloque de hielo en un vaso de icopor con agua y observa el cambio de temperatura mientras que el hielo se derrite. Para determinar la masa del bloque de hielo, el estudiante mide la masa del vaso de agua antes y después de poner el bloque de hielo. Las dos medidas son:\\
+masa (vaso icopor + agua)$ = m_1 = 203 \pm 2$ g\\
+masa (vaso icopor + agua + hielo)$ = m_2 = 246 \pm 3$ g\\
+Cuál es la respuesta del estudiante para la masa del hielo, así que el incertidumbre?
+
+\item Convertir los errores absolutos en las medidas de la velocidad de 2 carros en una pista en errores relativos y errores relativos porcentuales:
+\begin{enumerate}
+	\item $v_1 = 55 \pm 2$ cm/s
+	\item $v_2 = 20 \pm 2$ cm/s
+	\item Si la energía cinética medida es igual a $E_c = 4.58\;\rm{J} \pm 2\%$, escribe esta medida en términos del error absoluto.
+\end{enumerate}
+
+\item Si se miden una masa $m = 7.5 \pm 0.3$ kg y la aceleración gravitacional $g = 9.81 \pm 0.02\;\rm{ m/s^2}$, cuál es el peso $P = mg$ correspondiente y el error asociado?  
+
+\item \textbf{Regresión lineal o ajuste lineal:} método de mínimos cuadrados.\\
+Considere el siguiente conjunto de datos para el movimiento de un vehículo.
+\begin{center}
+\begin{tabular}{| l | r | r | r | r | r | r |}
+	\hline
+	t(s) & $1.2$ & $2.6$ & $7.5$ & $8.2$ & $10.8$ & $15.4$ \\ \hline
+	x(m) & $4$   & $8.1$ & $15.5$& $18.4$& $27.9$ & $39.8$ \\
+	\hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+	\item Coloque los puntos en una gráfica.
+	\item Encuentre la ecuación de la recta $y = mx + b$ que mejor ajusta los datos experimentales utilizando el método de mínimos cuadrados. La pendiente se calcula por la ecuación:
+	\[ m = \frac{n\sum xy - \sum x \sum y}{n\sum x^2 - (\sum x)^2} \]
+	mientras que el punto de corte con el eje $y$ se puede calcular con:
+	\[ b = \bar y - m \bar x \]
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
+
+
+
